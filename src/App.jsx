@@ -1,11 +1,20 @@
 import React from 'react';
+
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+
 import './App.css';
 
 function App() {
    return (
-      <>
-         <h1>Test</h1>
-      </>
+      <div className="app-container h-screen text-white">
+         <Home />
+         <About />
+         <Projects />
+         <Contact />
+      </div>
    );
 }
 
