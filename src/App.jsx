@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
    return (
-      <div className="app-container h-screen text-white">
+      <div className="app-container">
          <Home />
          <About />
          <Projects />
