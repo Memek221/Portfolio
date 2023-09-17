@@ -12,7 +12,7 @@ export default function Header() {
             <Navbar />
          </div>
          <div>
-            <Button text={'Hire me'} href={'#'} />
+            <Button text={'Hire me'} href={'#contact'} />
          </div>
       </header>
    );

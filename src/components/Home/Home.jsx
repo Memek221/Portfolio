@@ -5,7 +5,7 @@ import Button from '../../UI/Button';
 
 export default function Home() {
    return (
-      <section className="h-screen snap-center">
+      <section className="h-screen snap-center" id="home">
          <Header />
          <h1>Home</h1>
       </section>
