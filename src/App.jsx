@@ -1,15 +1,15 @@
 import React from 'react';
 
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import Projects from './components/Projects/Projects';
-import Contact from './components/Contact/Contact';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Projects from './components/pages/Projects';
+import Contact from './components/pages/Contact';
 
 import './App.css';
 
 function App() {
    return (
-      <div className="app-container font-rubik">
+      <div className="bg-[url(assets/images/bg.jpeg)] h-screen snap-y snap-mandatory scroll-smooth overflow-y-auto text-white">
          <Home />
          <About />
          <Projects />

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Logo from './Logo';
-import Navbar from './Navbar';
+import Logo from '../Logo';
+import Navbar from '../Navbar';
 import Button from '../../UI/Button';
 
 export default function Header() {
@@ -12,7 +12,7 @@ export default function Header() {
             <Navbar />
          </div>
          <div>
-            <Button text={'Hire me'} href={'#contact'} />
+            <Button label="Hire me" href="#contact" />
          </div>
       </header>
    );
