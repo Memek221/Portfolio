@@ -7,9 +7,10 @@ import {
    faSquareGithub,
 } from '@fortawesome/free-brands-svg-icons';
 
-import Header from './/Header';
+import Header from '../Header';
 import ImageBackground from '../ImageBackground';
 import logo from '../../assets/images/logo.png';
+import Button from '../../UI/Button';
 
 export default function Home() {
    return (
@@ -33,7 +34,7 @@ export default function Home() {
                      <FontAwesomeIcon
                         icon={faSquareFacebook}
                         size="2xl"
-                        className="text-pink-500 cursor-pointer hover:text-pink-600"
+                        className="text-pink-500 cursor-pointer transition-colors hover:text-pink-600"
                      />
                   </a>
                   <a
@@ -43,17 +44,22 @@ export default function Home() {
                      <FontAwesomeIcon
                         icon={faSquareInstagram}
                         size="2xl"
-                        className="text-pink-500 cursor-pointer hover:text-pink-600"
+                        className="text-pink-500 cursor-pointer transition-colors hover:text-pink-600"
                      />
                   </a>
                   <a href="https://github.com/Memek221" target="blank">
                      <FontAwesomeIcon
                         icon={faSquareGithub}
                         size="2xl"
-                        className="text-pink-500 cursor-pointer hover:text-pink-600"
+                        className="text-pink-500 cursor-pointer transition-colors hover:text-pink-600"
                      />
                   </a>
                </div>
+               <Button
+                  label="Download my CV"
+                  href="#"
+                  className="w-40 p-4 mt-10"
+               />
             </div>
             <div className="relative w-2/5 flex justify-center items-center">
                <img className="absolute z-10 " src={logo} alt="astronaut" />

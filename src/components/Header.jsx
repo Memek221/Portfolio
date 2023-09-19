@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Logo from '../Logo';
-import Navbar from '../Navbar';
-import Button from '../../UI/Button';
+import Logo from './Logo';
+import Navbar from './Navbar';
+import Button from '../UI/Button';
 
 export default function Header() {
    return (
