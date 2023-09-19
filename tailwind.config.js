@@ -6,6 +6,9 @@ export default {
          fontFamily: {
             sans: ['Rubik', 'sans-serif'],
          },
+         spacing: {
+            '-2/4': '-50%',
+         },
       },
    },
    plugins: [],

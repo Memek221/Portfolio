@@ -4,12 +4,12 @@ import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei';
 
 export default function ImageBackground() {
    return (
-      <div>
+      <div className="h-screen">
          <Canvas>
-            <OrbitControls enableZoom={false} enableRotate={false} />
+            <OrbitControls enableZoom={false} />
             <ambientLight intensity={1} />
-            <directionalLight position={[0, 0, 0]} />
-            <Sphere args={[1, 100, 200]} scale={2}>
+            <directionalLight position={[3, 2, 1]} />
+            <Sphere args={[1, 100, 200]} scale={2.2}>
                <MeshDistortMaterial
                   color="#3d1c56"
                   attach="material"
