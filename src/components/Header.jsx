@@ -2,7 +2,7 @@ import React from 'react';
 
 import Logo from './Logo';
 import Navbar from './Navbar';
-import Button from '../UI/Button';
+import Button from './Button';
 
 export default function Header() {
    return (

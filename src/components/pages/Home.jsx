@@ -10,7 +10,8 @@ import {
 import Header from '../Header';
 import ImageBackground from '../ImageBackground';
 import logo from '../../assets/images/logo.png';
-import Button from '../../UI/Button';
+import Button from '../Button';
+import IconLink from '../IconLink';
 
 export default function Home() {
    return (
@@ -27,33 +28,21 @@ export default function Home() {
                </h2>
                <p>I encourage you to visit </p>
                <div className="flex gap-4 mt-3.5">
-                  <a
+                  <IconLink
                      href="https://www.facebook.com/przemek.batelt"
                      target="blank"
-                  >
-                     <FontAwesomeIcon
-                        icon={faSquareFacebook}
-                        size="2xl"
-                        className="text-pink-500 cursor-pointer transition-colors hover:text-pink-600"
-                     />
-                  </a>
-                  <a
+                     icon={faSquareFacebook}
+                  />
+                  <IconLink
                      href="https://www.instagram.com/przemek.batelt/"
                      target="blank"
-                  >
-                     <FontAwesomeIcon
-                        icon={faSquareInstagram}
-                        size="2xl"
-                        className="text-pink-500 cursor-pointer transition-colors hover:text-pink-600"
-                     />
-                  </a>
-                  <a href="https://github.com/Memek221" target="blank">
-                     <FontAwesomeIcon
-                        icon={faSquareGithub}
-                        size="2xl"
-                        className="text-pink-500 cursor-pointer transition-colors hover:text-pink-600"
-                     />
-                  </a>
+                     icon={faSquareInstagram}
+                  />
+                  <IconLink
+                     href="https://github.com/Memek221"
+                     target="blank"
+                     icon={faSquareGithub}
+                  />
                </div>
                <Button
                   label="Download my CV"
