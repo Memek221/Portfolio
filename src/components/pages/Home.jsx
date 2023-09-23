@@ -52,7 +52,7 @@ export default function Home() {
             </div>
             <div className="relative w-2/5 flex justify-center items-center">
                <img className="animate-[fly_4s_linear_infinite] absolute z-10 " src={logo} alt="astronaut" />
-               <ImageBackground />
+               <ImageBackground size={[1, 100, 200]} scale={2.2} height='h-screen'/>
             </div>
          </div>
       </section>
