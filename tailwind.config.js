@@ -9,6 +9,17 @@ export default {
          spacing: {
             '-2/4': '-50%',
          },
+         keyframes: {
+            fly: {
+               '25%': {transform: 'translate(0, 2%);'},
+               '50%': {transform: 'translate(0, 0%);'},
+               '75%': {transform: 'translate(0, -2%);'},
+               '100%': {transform: 'translate(0, 0%);'},
+            }
+         },
+         animation: {
+            'fly': 'fly 3s linear infinite',
+         }
       },
    },
    plugins: [],

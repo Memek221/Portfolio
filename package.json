@@ -15,7 +15,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@react-three/drei": "^9.83.9",
+    "@react-three/drei": "^9.84.2",
     "@react-three/fiber": "^8.14.2",
     "classnames": "^2.3.2",
     "react": "^18.2.0",
