@@ -8,6 +8,10 @@ export default {
          },
          spacing: {
             '-2/4': '-50%',
+            '-full': '-100%',
+         },
+         gridAutoColumns: {
+            card: 'calc((100% / 3) - 12px)',
          },
          keyframes: {
             fly: {
@@ -16,6 +20,10 @@ export default {
                '75%': { transform: 'translate(0, -2%);' },
                '100%': { transform: 'translate(0, 0%);' },
             },
+
+            // box_fill {
+
+            // },
          },
          animation: {
             fly: 'fly 4s linear infinite',
