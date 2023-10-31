@@ -6,6 +6,7 @@ import HTML_Logo from '../../assets/images/Html_Logo.png';
 import CSS_Logo from '../../assets/images/CSS_Logo.png';
 import JS_Logo from '../../assets/images/JS_Logo.png';
 import React_Logo from '../../assets/images/React_Logo.png';
+import Highlight from '../Highlight';
 
 export default function About() {
    return (
@@ -16,16 +17,14 @@ export default function About() {
          <div className="text-xl w-3/5 mb-7">
             <h2 className="text-4xl mb-6 text-pink-600 ">About Me</h2>
             <p className="mb-10">
-               Hi! My name is{' '}
-               <span className="text-pink-500 font-medium">Przemek</span>. I'm
-               18 years old and I live in Bielsko-Biała which is located in
-               Poland. I'm high school student in the field of programming. My
-               journey with programming started something around 2018. I was
-               learning Python but I did't like it. In 2020 I started high
-               school and my teacher showed me{' '}
-               <span className="text-pink-500 font-medium">HTML</span> and{' '}
-               <span className="text-pink-500 font-medium">CSS</span>. Thats how
-               I stared being intrested in frontend.
+               Hi! My name is <Highlight>Przemek</Highlight>. I'm 18 years old
+               and I live in Bielsko-Biała which is located in Poland. I'm high
+               school student in the field of programming. My journey with
+               programming started something around 2018. I was learning Python
+               but I did't like it. In 2020 I started high school and my teacher
+               showed me <Highlight>HTML</Highlight> and{' '}
+               <Highlight>CSS</Highlight>. Thats how I stared being intrested in
+               frontend.
             </p>
             <h3 className="text-3xl text-pink-600">I'm working in: </h3>
          </div>

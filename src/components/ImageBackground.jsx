@@ -2,9 +2,9 @@ import React from 'react';
 import { Canvas } from '@react-three/fiber';
 import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei';
 
-export default function ImageBackground({size, scale, height}) {
+export default function ImageBackground({ size, scale, className }) {
    return (
-      <div className={height}>
+      <div className={className}>
          <Canvas>
             <OrbitControls enableZoom={false} />
             <ambientLight intensity={1} />
