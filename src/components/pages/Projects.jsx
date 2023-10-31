@@ -16,11 +16,11 @@ const projects = [
   },
   {
     title: 'Project 2',
-    src: Project_2,
+    src: Project_1,
   },
   {
     title: 'Project 3',
-    src: Project_3,
+    src: Project_1,
   },
   {
     title: 'Project 4',
@@ -52,7 +52,7 @@ export default function Projects() {
       id="projects"
     >
       <h2 className="text-4xl mb-12 text-pink-600 ">My Projects</h2>
-      <div className="w-full max-w-full flex justify-center gap-10 mb-6">
+      <div className="w-full max-w-full flex justify-around gap-10 mb-6">
         {currentItems.map((project, id) => {
           return (
             <div key={id}>
