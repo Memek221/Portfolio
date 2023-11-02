@@ -13,5 +13,10 @@ Projekt na ten moment jest skończony ale w przyszłości gdy poznam bardziej za
 
 # Galeria:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Home](./galeria/1.png)
+![About me 1](./galeria/2.png)
+![About me 2](./galeria/3.png)
+![Projects 1](./galeria/4.png)
+![Projects 2](./galeria/5.png)
+![Contact me](./galeria/6.png)
+
